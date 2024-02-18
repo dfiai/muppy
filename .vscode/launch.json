@@ -1,0 +1,17 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "main",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "main.py",
+      "cwd": "${workspaceFolder}/src/",
+      "console": "integratedTerminal",
+      "justMyCode": true,
+      "env": {
+        "PYTHONDONTWRITEBYTECODE": "1"
+      }
+    }
+  ]
+}

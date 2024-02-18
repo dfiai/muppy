@@ -1,0 +1,20 @@
+{
+  "files.eol":"\n",
+  "python.languageServer":"Pylance",
+  "python.formatting.provider":"none",
+  "[python]":{
+     "editor.defaultFormatter":"ms-python.black-formatter",
+     "editor.formatOnSave":true,
+     "editor.codeActionsOnSave":{
+      "source.organizeImports": "explicit"
+   }
+  },
+  "isort.args":[
+     "--profile",
+     "black"
+  ],
+  "explorer.fileNesting.enabled":true,
+  "explorer.fileNesting.patterns":{
+     "config.json":"config.*.json"
+  }
+}
